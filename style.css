@@ -274,6 +274,27 @@ a:hover {
   color: var(--primary);
 }
 
+/* RTL language support */
+html[dir="rtl"] body {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="rtl"] .breadcrumb {
+  direction: rtl;
+}
+
+html[dir="rtl"] .page-content ul,
+html[dir="rtl"] .page-content ol {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+
+html[dir="rtl"] .back-link {
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .site-header h1 {
