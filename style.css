@@ -117,13 +117,6 @@ a:hover {
   color: var(--text);
 }
 
-.app-card .app-id {
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-  font-family: monospace;
-  margin-bottom: 1rem;
-}
-
 .app-card .links {
   display: flex;
   flex-wrap: wrap;
