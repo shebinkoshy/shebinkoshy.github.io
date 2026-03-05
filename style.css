@@ -148,14 +148,28 @@ a:hover {
   border-color: var(--primary);
 }
 
-.app-card .links a.store-link {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
 }
 
-.app-card .links a.store-link:hover {
-  background: var(--primary-dark);
+.store-badge {
+  display: inline-block;
+  line-height: 0;
+  transition: opacity 0.15s;
+}
+
+.store-badge:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.store-badge img {
+  height: 40px;
+  width: auto;
 }
 
 /* Content pages (privacy policy, support) */
