@@ -68,9 +68,8 @@ es, zh-Hans, ja, fr, de, pt, ko, it, ru, ar, hi, id, tr, zh-Hant, nl, pl, vi, th
 - Translations must be professional quality - no machine-translated legal text without review
 
 ### Implemented Languages
-- **English (en)** - Base pages (all 6 apps)
-- **Spanish (es)** - Zingsentek Travel App only
-- **French (fr)** - All 6 apps
+- **All 25 languages** - All 6 apps (en, es, fr, de, pt, it, nl, ja, ko, zh-Hans, zh-Hant, ru, pl, sv, da, no, ar, hi, id, tr, vi, th, ms, tl, fil)
+- English base pages include hreflang tags for all 25 languages
 
 ### Reference Implementation
 See `privacy-policy/fr/` and `support/fr/` for the complete reference pattern (all 6 apps localized).
