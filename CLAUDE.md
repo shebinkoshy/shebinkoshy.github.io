@@ -45,7 +45,7 @@ support/
 | Easy peasyy Stopwatch | com.shebin.SSStopwatch | Yes | No |
 | Connecting Dots - Multiplayer | com.shebin.ConnectingDot | Yes | No |
 | Duplicate Contacts Finder | com.shebin.koshy.SSContactCleaner | Yes | No |
-| Offstage (macOS) | com.shebinkoshy.stagenotes | Not yet (Mac App Store) | No |
+| Offstage (macOS) | com.shebin.offstage | Not yet (Mac App Store) | No |
 
 ## Localization
 
