@@ -71,6 +71,7 @@ es, zh-Hans, ja, fr, de, pt, ko, it, ru, ar, hi, id, tr, zh-Hant, nl, pl, vi, th
 ### Implemented Languages
 - **All 25 languages** - All 6 apps (en, es, fr, de, pt, it, nl, ja, ko, zh-Hans, zh-Hant, ru, pl, sv, da, no, ar, hi, id, tr, vi, th, ms, tl, fil)
 - English base pages include hreflang tags for all 25 languages
+- **Offstage: en and es only**, the app's own languages (decided by the user, 2026-11-24). Its pages' hreflang tags list only those two
 
 ### Reference Implementation
 See `privacy-policy/fr/` and `support/fr/` for the complete reference pattern (all 6 apps localized).
